@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Alan Barth. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "VendorListViewController.h"
 
-@interface ViewController ()
+@interface VendorListViewController ()
 
 @end
 
-@implementation ViewController
+@implementation VendorListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
