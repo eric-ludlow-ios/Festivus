@@ -65,10 +65,10 @@
             </objects>
             <point key="canvasLocation" x="2240" y="477"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Vendor Detail Table View Controller-->
         <scene sceneID="A1Q-Z4-j4T">
             <objects>
-                <tableViewController id="gjq-X8-mAP" sceneMemberID="viewController">
+                <tableViewController id="gjq-X8-mAP" customClass="VendorDetailTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="lay-RK-Cv1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -153,10 +153,10 @@
             </objects>
             <point key="canvasLocation" x="1428" y="477"/>
         </scene>
-        <!--View Controller-->
+        <!--Event List View Controller-->
         <scene sceneID="KOz-Bz-izU">
             <objects>
-                <viewController id="Lc9-N2-eXP" sceneMemberID="viewController">
+                <viewController id="Lc9-N2-eXP" customClass="EventListViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eqQ-Tm-MfQ"/>
                         <viewControllerLayoutGuide type="bottom" id="F5H-BR-3qY"/>
@@ -233,10 +233,10 @@
             </objects>
             <point key="canvasLocation" x="1434" y="1229"/>
         </scene>
-        <!--View Controller-->
+        <!--Event List View Controller-->
         <scene sceneID="Gv5-Uc-UB7">
             <objects>
-                <viewController id="zzc-BZ-qEx" sceneMemberID="viewController">
+                <viewController id="zzc-BZ-qEx" customClass="EventListViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rGW-pD-aDR"/>
                         <viewControllerLayoutGuide type="bottom" id="cK2-91-Zbw"/>
@@ -333,10 +333,10 @@
             </objects>
             <point key="canvasLocation" x="1434" y="2617"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Event Detail Table View Controller-->
         <scene sceneID="ExG-jb-YVL">
             <objects>
-                <tableViewController id="0P3-t4-QAJ" sceneMemberID="viewController">
+                <tableViewController id="0P3-t4-QAJ" customClass="EventDetailTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="NzB-be-dQu">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -379,10 +379,10 @@
             </objects>
             <point key="canvasLocation" x="2916" y="1229"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Event Detail Table View Controller-->
         <scene sceneID="n2W-bj-fdU">
             <objects>
-                <tableViewController id="mBO-SE-esC" sceneMemberID="viewController">
+                <tableViewController id="mBO-SE-esC" customClass="EventDetailTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Au3-Dx-dQy">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -428,7 +428,7 @@
         <!--Donation-->
         <scene sceneID="qnw-BJ-n0g">
             <objects>
-                <tableViewController id="9q9-mj-HSM" sceneMemberID="viewController">
+                <tableViewController id="9q9-mj-HSM" customClass="DonateTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="7SM-zt-KAR">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
