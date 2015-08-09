@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EventListViewController : UISearchController
+@interface EventListViewController : UIViewController
 
 @end

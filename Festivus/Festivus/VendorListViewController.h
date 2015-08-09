@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VendorListViewController : UISearchController
+@interface VendorListViewController : UIViewController
 
 
 @end
