@@ -165,7 +165,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0gD-yP-grW">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0gD-yP-grW">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -191,7 +191,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="0gD-yP-grW" secondAttribute="trailing" id="EcX-mv-8xl"/>
                             <constraint firstItem="0gD-yP-grW" firstAttribute="leading" secondItem="U6p-X2-TnR" secondAttribute="leading" id="GHC-Zv-5dG"/>
-                            <constraint firstItem="0gD-yP-grW" firstAttribute="bottom" secondItem="F5H-BR-3qY" secondAttribute="top" id="JtU-cy-aqG"/>
+                            <constraint firstItem="0gD-yP-grW" firstAttribute="bottom" secondItem="F5H-BR-3qY" secondAttribute="top" constant="49" id="JtU-cy-aqG"/>
                             <constraint firstItem="0gD-yP-grW" firstAttribute="top" secondItem="U6p-X2-TnR" secondAttribute="top" id="yvQ-XP-vcW"/>
                         </constraints>
                     </view>
@@ -245,7 +245,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8r6-4p-y0S">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8r6-4p-y0S">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -269,7 +269,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="8r6-4p-y0S" firstAttribute="bottom" secondItem="cK2-91-Zbw" secondAttribute="top" id="SPU-v1-eaJ"/>
+                            <constraint firstItem="8r6-4p-y0S" firstAttribute="bottom" secondItem="cK2-91-Zbw" secondAttribute="top" constant="49" id="SPU-v1-eaJ"/>
                             <constraint firstAttribute="trailing" secondItem="8r6-4p-y0S" secondAttribute="trailing" id="fRi-LS-81r"/>
                             <constraint firstItem="8r6-4p-y0S" firstAttribute="leading" secondItem="J7z-8R-OzN" secondAttribute="leading" id="i8n-VU-LAE"/>
                             <constraint firstItem="8r6-4p-y0S" firstAttribute="top" secondItem="J7z-8R-OzN" secondAttribute="top" id="nor-8g-BLn"/>
