@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		242CB5FE1B76B90800FE5B08 /* VendorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242CB5FD1B76B90800FE5B08 /* VendorController.m */; };
-		242CB6011B76BDCB00FE5B08 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 242CB6001B76BDCB00FE5B08 /* Event.m */; };
-		242CB6041B76BDE300FE5B08 /* Vendor.m in Sources */ = {isa = PBXBuildFile; fileRef = 242CB6031B76BDE300FE5B08 /* Vendor.m */; };
-		242CB6071B76C7AD00FE5B08 /* EventController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242CB6061B76C7AD00FE5B08 /* EventController.m */; };
 		2CB13E111B76B45500F2D4AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB13E101B76B45500F2D4AA /* main.m */; };
 		2CB13E141B76B45500F2D4AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB13E131B76B45500F2D4AA /* AppDelegate.m */; };
 		2CB13E171B76B45500F2D4AA /* VendorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB13E161B76B45500F2D4AA /* VendorListViewController.m */; };
@@ -111,30 +107,10 @@
 		2CB13E0D1B76B45500F2D4AA /* Festivus */ = {
 			isa = PBXGroup;
 			children = (
-				242CB6051B76C7AD00FE5B08 /* EventController.h */,
-				242CB6061B76C7AD00FE5B08 /* EventController.m */,
-				242CB5FC1B76B90800FE5B08 /* VendorController.h */,
-				242CB5FD1B76B90800FE5B08 /* VendorController.m */,
-				242CB5FF1B76BDCA00FE5B08 /* Event.h */,
-				242CB6001B76BDCB00FE5B08 /* Event.m */,
-				242CB6021B76BDE300FE5B08 /* Vendor.h */,
-				242CB6031B76BDE300FE5B08 /* Vendor.m */,
 				2CB13E121B76B45500F2D4AA /* AppDelegate.h */,
 				2CB13E131B76B45500F2D4AA /* AppDelegate.m */,
-				2CB13E151B76B45500F2D4AA /* VendorListViewController.h */,
-				2CB13E161B76B45500F2D4AA /* VendorListViewController.m */,
-				68717A4B1B76C11A00F38821 /* VendorDetailTableViewController.h */,
-				68717A4C1B76C11A00F38821 /* VendorDetailTableViewController.m */,
-				68717A391B76BE9900F38821 /* EventListViewController.h */,
-				68717A3A1B76BE9900F38821 /* EventListViewController.m */,
-				68717A4E1B76C13100F38821 /* EventDetailTableViewController.h */,
-				68717A4F1B76C13100F38821 /* EventDetailTableViewController.m */,
-				68717A3F1B76BF1700F38821 /* MusicEventDataSource.h */,
-				68717A401B76BF1700F38821 /* MusicEventDataSource.m */,
-				68717A421B76BF3000F38821 /* WorkshopEventDataSource.h */,
-				68717A431B76BF3000F38821 /* WorkshopEventDataSource.m */,
-				68717A541B76C19B00F38821 /* DonateTableViewController.h */,
-				68717A551B76C19B00F38821 /* DonateTableViewController.m */,
+				68717A571B76DA3400F38821 /* Model */,
+				68717A581B76DA3D00F38821 /* View */,
 				2CB13E181B76B45500F2D4AA /* Main.storyboard */,
 				2CB13E1B1B76B45500F2D4AA /* Images.xcassets */,
 				2CB13E1D1B76B45500F2D4AA /* LaunchScreen.xib */,
@@ -167,6 +143,42 @@
 				2CB13E291B76B45500F2D4AA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68717A571B76DA3400F38821 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				242CB6051B76C7AD00FE5B08 /* EventController.h */,
+				242CB6061B76C7AD00FE5B08 /* EventController.m */,
+				242CB5FC1B76B90800FE5B08 /* VendorController.h */,
+				242CB5FD1B76B90800FE5B08 /* VendorController.m */,
+				242CB5FF1B76BDCA00FE5B08 /* Event.h */,
+				242CB6001B76BDCB00FE5B08 /* Event.m */,
+				242CB6021B76BDE300FE5B08 /* Vendor.h */,
+				242CB6031B76BDE300FE5B08 /* Vendor.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		68717A581B76DA3D00F38821 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CB13E151B76B45500F2D4AA /* VendorListViewController.h */,
+				2CB13E161B76B45500F2D4AA /* VendorListViewController.m */,
+				68717A4B1B76C11A00F38821 /* VendorDetailTableViewController.h */,
+				68717A4C1B76C11A00F38821 /* VendorDetailTableViewController.m */,
+				68717A391B76BE9900F38821 /* EventListViewController.h */,
+				68717A3A1B76BE9900F38821 /* EventListViewController.m */,
+				68717A4E1B76C13100F38821 /* EventDetailTableViewController.h */,
+				68717A4F1B76C13100F38821 /* EventDetailTableViewController.m */,
+				68717A3F1B76BF1700F38821 /* MusicEventDataSource.h */,
+				68717A401B76BF1700F38821 /* MusicEventDataSource.m */,
+				68717A421B76BF3000F38821 /* WorkshopEventDataSource.h */,
+				68717A431B76BF3000F38821 /* WorkshopEventDataSource.m */,
+				68717A541B76C19B00F38821 /* DonateTableViewController.h */,
+				68717A551B76C19B00F38821 /* DonateTableViewController.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +225,7 @@
 		2CB13E031B76B45500F2D4AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Alan Barth";
 				TargetAttributes = {
 					2CB13E0A1B76B45500F2D4AA = {
@@ -340,6 +352,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -405,6 +418,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Festivus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devmtn.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -415,6 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Festivus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devmtn.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -433,6 +448,7 @@
 				);
 				INFOPLIST_FILE = FestivusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devmtn.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Festivus.app/Festivus";
 			};
@@ -448,6 +464,7 @@
 				);
 				INFOPLIST_FILE = FestivusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devmtn.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Festivus.app/Festivus";
 			};
