@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242CB5FE1B76B90800FE5B08 /* VendorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242CB5FD1B76B90800FE5B08 /* VendorController.m */; };
+		242CB6011B76BDCB00FE5B08 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 242CB6001B76BDCB00FE5B08 /* Event.m */; };
+		242CB6041B76BDE300FE5B08 /* Vendor.m in Sources */ = {isa = PBXBuildFile; fileRef = 242CB6031B76BDE300FE5B08 /* Vendor.m */; };
+		242CB6071B76C7AD00FE5B08 /* EventController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242CB6061B76C7AD00FE5B08 /* EventController.m */; };
 		2CB13E111B76B45500F2D4AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB13E101B76B45500F2D4AA /* main.m */; };
 		2CB13E141B76B45500F2D4AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB13E131B76B45500F2D4AA /* AppDelegate.m */; };
 		2CB13E171B76B45500F2D4AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB13E161B76B45500F2D4AA /* ViewController.m */; };
@@ -27,6 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		242CB5FC1B76B90800FE5B08 /* VendorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VendorController.h; path = ../VendorController.h; sourceTree = "<group>"; };
+		242CB5FD1B76B90800FE5B08 /* VendorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VendorController.m; path = ../VendorController.m; sourceTree = "<group>"; };
+		242CB5FF1B76BDCA00FE5B08 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		242CB6001B76BDCB00FE5B08 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		242CB6021B76BDE300FE5B08 /* Vendor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vendor.h; sourceTree = "<group>"; };
+		242CB6031B76BDE300FE5B08 /* Vendor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vendor.m; sourceTree = "<group>"; };
+		242CB6051B76C7AD00FE5B08 /* EventController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventController.h; sourceTree = "<group>"; };
+		242CB6061B76C7AD00FE5B08 /* EventController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventController.m; sourceTree = "<group>"; };
 		2CB13E0B1B76B45500F2D4AA /* Festivus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Festivus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB13E0F1B76B45500F2D4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CB13E101B76B45500F2D4AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +93,14 @@
 		2CB13E0D1B76B45500F2D4AA /* Festivus */ = {
 			isa = PBXGroup;
 			children = (
+				242CB6051B76C7AD00FE5B08 /* EventController.h */,
+				242CB6061B76C7AD00FE5B08 /* EventController.m */,
+				242CB5FC1B76B90800FE5B08 /* VendorController.h */,
+				242CB5FD1B76B90800FE5B08 /* VendorController.m */,
+				242CB5FF1B76BDCA00FE5B08 /* Event.h */,
+				242CB6001B76BDCB00FE5B08 /* Event.m */,
+				242CB6021B76BDE300FE5B08 /* Vendor.h */,
+				242CB6031B76BDE300FE5B08 /* Vendor.m */,
 				2CB13E121B76B45500F2D4AA /* AppDelegate.h */,
 				2CB13E131B76B45500F2D4AA /* AppDelegate.m */,
 				2CB13E151B76B45500F2D4AA /* ViewController.h */,
@@ -221,7 +241,11 @@
 			files = (
 				2CB13E171B76B45500F2D4AA /* ViewController.m in Sources */,
 				2CB13E141B76B45500F2D4AA /* AppDelegate.m in Sources */,
+				242CB6011B76BDCB00FE5B08 /* Event.m in Sources */,
+				242CB6071B76C7AD00FE5B08 /* EventController.m in Sources */,
 				2CB13E111B76B45500F2D4AA /* main.m in Sources */,
+				242CB5FE1B76B90800FE5B08 /* VendorController.m in Sources */,
+				242CB6041B76BDE300FE5B08 /* Vendor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +440,7 @@
 				2CB13E301B76B45500F2D4AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CB13E311B76B45500F2D4AA /* Build configuration list for PBXNativeTarget "FestivusTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				2CB13E331B76B45500F2D4AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
