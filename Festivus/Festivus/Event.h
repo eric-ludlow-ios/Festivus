@@ -7,20 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreLocation/CoreLocation.h>
+@import CoreLocation;
 
 @interface Event : NSObject
 
-@property(strong, nonatomic) NSString* name;
-@property(strong, nonatomic) NSDate* date;
-@property(strong, nonatomic) NSDate* startDate;
-@property(strong, nonatomic) NSDate* endDate;
-@property(strong, nonatomic) NSString* descript;
-@property(strong, nonatomic) NSString* locationName;
-@property(strong, nonatomic) CLLocation* locationCoordinate;
-@property(nonatomic) BOOL isFavorite;
-@property(strong, nonatomic) NSURL* url; //(registration url, or more info url)
-@property(strong, nonatomic) NSString* category;
+@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSDate *date;
+@property (strong, nonatomic) NSDate *startDate;
+@property (strong, nonatomic) NSDate *endDate;
+@property (strong, nonatomic) NSString *descript;
+@property (strong, nonatomic) NSString *locationName;
+@property (strong, nonatomic) CLLocation *locationCoordinate;
+@property (nonatomic) BOOL isFavorite;
+@property (strong, nonatomic) NSURL *url; //(registration url, or more info url)
+@property (strong, nonatomic) NSString *category;
 
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 @end

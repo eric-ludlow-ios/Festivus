@@ -11,7 +11,6 @@
 @implementation VendorController
 
 
-
 -(NSArray *)favoritedVendors {
     NSPredicate *isFavorite = [NSPredicate predicateWithFormat:@"isFavorite == 1"];
     NSArray *favoritedVendors = [self.vendors filteredArrayUsingPredicate:isFavorite];

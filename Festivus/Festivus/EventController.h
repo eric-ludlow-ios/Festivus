@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Event.h"
 
 @interface EventController : NSObject
+
+@property (strong, nonatomic, readonly) NSArray *events;
+@property (strong, nonatomic, readonly) NSArray *favoritedEvents;
+
+
+- (void)setFavorite:(Event *)event;
+- (void)removeFavorite:(Event *)event;
+- (void)scheduleLocalNotificationsForEvent:(Event *)event;
+- (void)createCalendarEventFromEvent:(Event *)event;
 
 @end

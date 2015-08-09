@@ -7,19 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreLocation/CoreLocation.h>
+@import CoreLocation;
 
 @interface Vendor : NSObject
 
-@property (strong,nonatomic) NSString* name;
-@property (strong,nonatomic) NSString* descript;
-@property (strong,nonatomic) NSString* locationName;
-@property (strong, nonatomic) CLLocation* locationCoordinate;
-@property (strong,nonatomic) NSArray* links;
-@property (strong,nonatomic) NSString* phoneNumber;
-@property (assign,nonatomic) BOOL isFavorite;
-@property (strong,nonatomic) NSString* category;
-@property (strong,nonatomic) NSString* email;
-@property (strong,nonatomic) NSString* boothLocation;
+@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *description;
+@property (strong, nonatomic) NSString *locationName;
+@property (strong, nonatomic) CLLocation *locationCoordinate;
+@property (strong, nonatomic) NSArray *links;
+@property (strong, nonatomic) NSString *phoneNumber;
+@property (assign, nonatomic) BOOL isFavorite;
+@property (strong, nonatomic) NSString *category;
+@property (strong, nonatomic) NSString *email;
+@property (strong, nonatomic) NSString *boothLocation;
 
 @end

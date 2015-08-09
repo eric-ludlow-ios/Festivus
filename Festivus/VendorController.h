@@ -15,7 +15,6 @@
 @property (strong, nonatomic) NSArray *favoritedVendors;
 
 - (void)setFavorite:(Vendor*)vendor;
-
 - (void)removeFavorite:(Vendor*)vendor;
 
 @end
